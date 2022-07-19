@@ -1,0 +1,23 @@
+#title {
+  padding: 10px;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: center;
+}
+.axis {
+  font: 15px Arial, sans-serif;
+}
+
+.bar-chart-svg-component {
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #3a3a3a;
+}
