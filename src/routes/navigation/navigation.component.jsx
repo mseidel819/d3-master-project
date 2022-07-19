@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import PositionedMenu from "../../components/menu/menu.component";
+import { StyledHomeLink } from "./navigation.styles";
 
 const NavBar = () => {
   return (
@@ -13,8 +14,10 @@ const NavBar = () => {
       >
         <Toolbar sx={{ flexWrap: "wrap" }}>
           <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            D3 Master Project
+            {" "}
+            <StyledHomeLink to="/">D3 Master Project </StyledHomeLink>
           </Typography>
+
           <nav>
             <PositionedMenu />
             {/* <Link to="/">Home</Link>
